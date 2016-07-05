@@ -1,0 +1,83 @@
+body {	
+	font-family:  Geneva, Verdana, sans-serif, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans";
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #336699;
+    color: white;
+}
+
+#container {
+    padding-bottom: 6px;
+}
+
+header {
+	text-shadow: -2px 2px 3px black;	
+}
+
+#logo {
+	float: left;
+	padding: 20px 20px;
+	margin-left: 5px;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+
+#control_container {
+	float: right;
+    padding: 20px; 
+}
+
+input{
+	-webkit-appearance: none;   /*按照本地默认样式显示元素外观*/
+	border: none; 
+	box-shadow: none;	
+}
+
+input:focus {
+	box-shadow: 1px 1px 1px black;
+}
+
+input[type="text"] {
+	border: 1px solid rgba(0,0,0,0.2);
+	width: 80px;	
+	padding: 5px;
+	font-size: 14px;
+}
+
+.control {
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.btn {
+	border: none;
+	border-radius: none;
+	font-size: 14px;
+	width: 100px;
+	padding: 5px 0;
+	border: 1px solid rgba(255,255,255,0.05);
+	box-shadow:1px 1px 3px black;
+	cursor: pointer;
+}
+
+.btn:active {
+	box-shadow:none;
+}
+
+.eraser {
+	background-color: #6699cc;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+.erase_all {
+	background-color: #993366;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+canvas {
+	cursor: none;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
